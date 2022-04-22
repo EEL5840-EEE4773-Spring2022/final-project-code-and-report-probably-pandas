@@ -1,4 +1,4 @@
-
+# Handwritten Character Recognition
   
 <!-- TABLE OF CONTENTS -->
 
@@ -279,7 +279,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Shivam Bang   
 Dhruv Kushwaha  
-Tre’ Jeter
+Tre’ Jeter  
 Yao An Lee   
 
 Project Link: [Handwritten Character Recognition](https://github.com/EEL5840-EEE4773-Spring2022/final-project-code-and-report-probably-pandas)
