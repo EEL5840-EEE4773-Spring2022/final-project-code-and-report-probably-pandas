@@ -1,19 +1,307 @@
-# Final Project
 
-This is a **group assignment**.
+  
+<!-- TABLE OF CONTENTS -->
 
-## Milestone 2 - Code Implementation & Technical Report
+  
 
-This milestone is to be delivered at the end of the semester, Friday April 22 @ 11:59 PM. Find the complete [rubric](https://ufl.instructure.com/courses/447948/assignments/5138679) in the Canvas assignemtn.
+<details  open="open">
 
-## Training Data
+  
 
-The training data set is the same for every team in this course.
+<summary>Table of Contents</summary>
 
-You can download the data in our Canvas page:
-* ["data_train.npy"](https://ufl.instructure.com/courses/447948/files/folder/Final%20Project?preview=67069006)
-* ["labels_train.npy"](https://ufl.instructure.com/courses/447948/files/folder/Final%20Project?preview=67068769)
+  
 
-## Edit this READ-ME
+<ol>
 
-Please edit this read-me file with information about your project. You can find a [READ-ME template here](https://github.com/catiaspsilva/README-template).
+  
+
+<li><a  href="#about-the-project">About The Project</a></li>
+
+  
+
+<li><a  href="#getting-started">Getting Started</a></li>
+
+  
+
+<li><a  href="#dependencies">Dependencies</a></li>
+
+  
+
+<li><a  href="#installation">Installation</a></li>
+
+  
+
+</ul>
+
+  
+
+</li>
+
+  
+
+<li><a  href="#usage">Usage</a></li>
+
+  
+
+<li><a  href="#roadmap">Roadmap</a></li>
+
+  
+
+<li><a  href="#contributing">Contributing</a></li>
+
+  
+
+<li><a  href="#license">License</a></li>
+
+  
+
+<li><a  href="#authors">Authors</a></li>
+
+  
+
+<li><a  href="#acknowledgements">Acknowledgements</a></li>
+
+  
+
+</ol>
+
+  
+
+</details>
+
+  
+
+  
+
+<!-- ABOUT THE PROJECT -->
+
+  
+
+## About The Project
+
+  
+
+  
+
+This project recognizes characters from image data. The main dataset contains images for 10 character classes:
+
+  
+
+Character: a b c d e f g h $ #
+
+  
+
+Label: 0 1 2 3 4 5 6 7 8 9
+
+  
+
+The 300x300 pixel images were collected as part of the UF course EEL5840. This dataset is cleaned, processed, and used for training our custom CNN model (PandaNet) which is inspired from LeNet.
+
+  
+
+The data was split 90:10 and 1000 samples from cifar10 dataset were added to the test data as -1 class. The model gives an accuracy of 0.92 on this test set.
+
+  
+
+<!-- GETTING STARTED -->
+
+  
+
+## Getting Started
+
+  
+
+  
+
+  
+
+### Dependencies
+
+  
+
+  
+
+Tensorflow 2.6.0
+
+```sh
+conda install tensorflow==2.6.0
+```
+
+  
+
+* OpenCV
+```sh
+pip install opencv-python
+```
+
+* NumPy
+
+```sh
+pip install numpy
+```
+
+* Pandas
+
+  
+
+```sh
+pip install pandas
+```
+
+  
+
+* scikit_learn
+```sh
+pip install -U scikit-learn
+```
+
+  
+
+* MatPlotLib
+```sh
+pip install matplotlib
+```
+
+  
+  
+
+### Installation
+
+  
+
+  
+
+* Clone the repo
+
+  
+
+```sh
+git clone https://github.com/catiaspsilva/README-template.git
+```
+
+
+<!-- USAGE EXAMPLES -->
+
+  
+
+## Usage
+
+  
+
+  
+
+The hard-test notebook can be used to test the model. 'test' function in this file takes the data (as a 90000xN numpy array where N is number of samples) and labels and gives predictions from the 10 classes or -1 if the image does not belong to any of these classes.
+
+  
+
+Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+
+  
+
+  
+
+<!-- ROADMAP -->
+
+  
+
+## Roadmap
+
+  
+
+  
+
+See the [open issues](https://github.com/catiaspsilva/README-template/issues) for a list of proposed features (and known issues).
+
+  
+
+  
+
+<!-- CONTRIBUTING -->
+
+  
+
+## Contributing
+
+  
+
+  
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+  
+
+  
+
+1. Fork the Project
+
+  
+
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+
+  
+
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+
+  
+
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+
+  
+
+5. Open a Pull Request
+
+  
+
+  
+
+<!-- LICENSE -->
+
+  
+
+## License
+
+  
+
+  
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+  
+
+  
+
+<!-- Authors -->
+
+  
+
+## Authors
+
+Shivam Bang   
+Dhruv Kushwaha  
+Tre’ Jeter
+Yao An Lee   
+
+Project Link: [Handwritten Character Recognition](https://github.com/EEL5840-EEE4773-Spring2022/final-project-code-and-report-probably-pandas)
+
+  
+
+  
+
+<!-- ACKNOWLEDGEMENTS -->
+
+  
+
+## Acknowledgements
+
+  
+
+  
+
+* [Catia Silva](https://faculty.eng.ufl.edu/catia-silva/)
+
+  
+
+  
+
+## Thank you
