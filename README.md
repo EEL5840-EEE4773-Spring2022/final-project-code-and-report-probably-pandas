@@ -189,36 +189,10 @@ git clone https://github.com/EEL5840-EEE4773-Spring2022/final-project-code-and-r
 
   
 
+The easy-test notebook can be used to test the model on easy-test. 'test' function in this file takes the data and labels and gives predictions from the 10 classes.
   
 
-The hard-test notebook can be used to test the model. 'test' function in this file takes the data (as a 90000xN numpy array where N is number of samples) and labels and gives predictions from the 10 classes or -1 if the image does not belong to any of these classes.
-
-  
-
-Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-  
-
-  
-
-<!-- ROADMAP -->
-
-  
-
-## Roadmap
-
-  
-
-  
-
-See the [open issues](https://github.com/catiaspsilva/README-template/issues) for a list of proposed features (and known issues).
-
-  
-
-  
-
-<!-- CONTRIBUTING -->
-
+The hard-test notebook can be used to test the model on hard-test. 'test' function in this file takes the data and labels and gives predictions from the 10 classes or -1 if the image does not belong to any of these classes.
   
 
 ## Contributing
